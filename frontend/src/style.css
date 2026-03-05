@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .cd-input {
+    @apply w-[210px] h-10 rounded-xl border border-gray-300 bg-white px-3 outline-none focus:border-blue-500;
+  }
+
+  .cd-select {
+    @apply pr-8;
+  }
+}
